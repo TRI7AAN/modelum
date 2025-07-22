@@ -48,8 +48,9 @@ export default function Home() {
               size="lg"
               variant="outline"
               className="bg-[#224949] border-[#224949] text-white hover:bg-[#316868] font-bold px-8"
+              asChild
             >
-              Generate Now
+              <a href="/blueprint-demo">Blueprint & Chart Demo</a>
             </Button>
           </div>
         </div>
